@@ -21,6 +21,7 @@ Todas as rotas estão usando http://localhost:3333
 
 ### Create Customer [POST]
 - localhost:3333/customers
+Exemplo de envio:
 JSON
 ```js
 {
@@ -28,8 +29,11 @@ JSON
 	"email": "andre-rocha@gmail.com"
 }
 ```
+### Create Product [POST]
+- localhost:3333/products
 Exemplo de envio:
 JSON
+
 ```js
 {
 	"name": "HD 2tb Seageat",
@@ -37,8 +41,8 @@ JSON
 	"quantity": 50
 }
 ```
-### Create Product [POST]
-- localhost:3333/products
+### Create Order [POST]
+- localhost:3333/orders
 Exemplo de envio:
 JSON
 ```js
@@ -51,11 +55,6 @@ JSON
 		}
 	]
 }
-```
-### Create Order [POST]
-- localhost:3333/orders
-Exemplo de envio:
-```
 ```
 ### Find Order [POST]
 -
